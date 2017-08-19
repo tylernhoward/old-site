@@ -10,7 +10,7 @@ body {
 
 #banner {
   background: url(content/mountainbg.jpg);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
