@@ -5,5 +5,73 @@ html {
 
 body {
 	background-color: whitesmoke;
-	margin-top:75px;
+	margin-top:50px;
 }
+
+#banner {
+  background: url(content/mountainbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #000;
+  color: #000;
+	height: 750px;
+}
+#banner h1 {
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+.banner-content {
+		color: #fff;
+    position: absolute;
+    padding: 20% 0 5% 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#termWindow{
+	height: 20px;
+	background-color:grey;
+}
+.termCircles{
+	margin: 5px;
+	display: inline-block;
+	background-color: white;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	/* width and height can be anything, as long as they're equal */
+}
+#interestTerm{
+	font-family: 'Monaco', 'Courier New';
+	font-size: 12px;
+	color:white;
+	background-color: black;
+	height: 200px;
+	padding-top:10px;
+	padding-left: 10px;
+}
+/*
+#code {
+  border-radius: 5px;
+  width:750px;
+  margin: 0 auto;
+  padding-top:15px;
+  font-size:30px;
+  background: #ccc;
+  height: 700px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size:13px;
+  color: #fafafa;
+}
+
+#console {
+  width:670px;
+  padding: 40px;
+  height: 620px;
+  margin:0 auto;
+  background: #383737;
+}*/

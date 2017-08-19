@@ -29,17 +29,17 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#myModal">Contact</a>
+            <a class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h4 class="modal-title" id="myModalLabel">Contact</h4>
+		        <h4 class="modal-title" id="contactModalLabel">Contact</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		      </div>
 		      <div class="modal-body">
@@ -69,17 +69,22 @@
 		  </div>
 		</div>
 
-    <!--<div class="container-fluid" id="banner">
-      <div class = "col-md-12">
-        <img class= "img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Baltimore-banner1.jpg">
+    <div class="container-fluid" id="banner">
+      <div class = "col-md-12 text-center banner-content">
+        <h1>TYLER HOWARD</h1>
+        <br>
+        <p>Software Engineering and Design</p>
+        <br>
+        <br>
+        <a class ="fa fa-angle-down fa-3x" href="#about"></a>
       </div>
-    </div>-->
+    </div>
 
     <div class="jumbotron" id="about">
       <div class="container">
-        <h1 class="text-center">Tyler Howard</h1>
+        <h1 class="text-center">Hi, I'm Tyler!</h1>
         <br>
-        <img class= "col-md-3 mx-auto d-block" src="content/photo.tiff">
+        <img class= "col-md-3 mx-auto d-block" src="content/photo.png">
         <br>
         <h2 class="text-center">About Me</h2>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -87,20 +92,31 @@
            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="col-md-6 mx-auto d-block"id="termWindow">
+          <div class="row">
+            <div class="termCircles" style="background-color:red;"></div>
+            <div class="termCircles" style="background-color:yellow;"></div>
+            <div class="termCircles" style="background-color:green;"></div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto d-block"id="interestTerm">
+          <p>==>tyler.interests?</p>
+        </div>
+
       </div>
     </div>
 
-    <div class="jumbotron" id="resume">
-      <div class="container">
+      <div class="container" id="resume">
         <h2 class="text-center">Resume</h2>
-        <div class="col-md-9 mx-auto d-block">
+        <div class="col-md-6 mx-auto d-block">
           <div class="embed-responsive" style="padding-bottom:135%;">
               <object data="content/resume.pdf" type="application/pdf" width="100%" height="100%"></object>
           </div>
-          <a type="button" class="btn btn-block btn-default" href="content/resume.pdf" download="TylerHowardResume.pdf">Download</a>
+          <a type="button" class="btn btn-block btn-default" href="content/resume.pdf" download="TylerHowardResume.pdf">Download a copy</a>
         </div>
+
+
       </div>
-    </div>
 
     <div class="container" id="projects">
       <h2 class="text-center">Projects</h2>
