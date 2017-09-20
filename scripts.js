@@ -15,5 +15,15 @@ $(document).ready(function() {
         }
       }
   });
+  $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+            $(".fixed-top").addClass("bg-dark");
+            // $(".navbar").addClass("navbar-shadow");
+        } else {
+
+            $(".fixed-top").removeClass("bg-dark");
+            // $(".navbar").removeClass("navbar-shadow");
+        }
+    });
 
 });

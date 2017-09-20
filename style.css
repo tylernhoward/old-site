@@ -5,17 +5,77 @@ html {
 
 body {
 	background-color: white;
-	margin-top:50px;
 }
 .jumbotron{
 	margin-bottom: 0px;
 }
+#banner .overlay {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
+    /* IE6-9 */
+    height: 750px;
+    background-attachment: fixed;
+}
+#resume .overlay {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.8)), color-stop(17%, rgba(0, 0, 0, 0.73)), color-stop(35%, rgba(0, 0, 0, 0.66)), color-stop(62%, rgba(0, 0, 0, 0.55)), color-stop(100%, rgba(0, 0, 0, 0.4)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
+    /* IE6-9 */
+    padding: 80px 0;
+    background-attachment: fixed;
+}
 
+.resume-btn {
+    background: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ddd;
+    border: 2px solid #ccc;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.resume-btn:hover,
+.resume-btn:active {
+    /*background-position: -100% 100%;*/
+    color: #fff;
+    /*font-weight: 400;*/
+    border: 2px solid #ccc;
+    background-color: rgba(254, 254, 254, 0.2);
+    padding: 10px 30px;
+}
 
 #banner {
   background: url(content/mountainbg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: #000;
@@ -76,6 +136,16 @@ body {
 	padding-top:10px;
 	padding-left: 10px;
 }
+#resume{
+	background: url(content/fernbg.jpg);
+	    background-size: cover;
+	    background-position: center;
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-color: #000;
+	    color: #fff;
+}
+
 /*
 #code {
   border-radius: 5px;
