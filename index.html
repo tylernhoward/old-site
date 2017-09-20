@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,11 +23,11 @@
 <body>
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#banner">Tyler Howard</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Tyler Howard</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse" id="navbarSite">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -84,28 +85,29 @@
 
     <div class="container-fluid" id="banner">
       <div class = "col-sm-12 text-center banner-content">
-        <h1>TYLER HOWARD</h1>
+        <h1 data-aos="zoom" data-aos-delay="200">TYLER HOWARD</h1>
         <br>
-        <p>Software Engineering and Design</p>
+        <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400" >Software Engineering and Design</p>
         <br>
         <br>
-        <a class ="fa fa-angle-down fa-3x" href="#about"></a>
+        <a data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800" class ="nav-link fa fa-angle-down fa-3x" href="#about"></a>
       </div>
     </div>
 
     <div class="jumbotron" id="about">
       <div class="container">
-        <h1 class="text-center">Hi, I'm Tyler!</h1>
+        <h1 data-aos="fade-down" class="text-center">Hi, I'm Tyler!</h1>
         <br>
-        <img class= "col-md-3 mx-auto d-block" src="content/photo.png">
+        <img data-aos="zoom" data-aos-delay="200" class= "col-md-3 mx-auto d-block" src="content/photo.png">
         <br>
-        <h2 class="text-center">About Me</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        <h2 data-aos="zoom" data-aos-delay="200" class="text-center">About Me</h2>
+        <p data-aos="zoom" data-aos-delay="200" class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="col-md-6 mx-auto d-block"id="termWindow">
+        <div data-aos="zoom" data-aos-delay="200">
+          <div class="col-md-6 mx-auto d-block"id="termWindow">
           <div class="row">
             <div class="termCircles" style="background-color:tomato;"></div>
             <div class="termCircles" style="background-color:gold;"></div>
@@ -116,11 +118,12 @@
           <p>==>tyler.interests?</p>
         </div>
       </div>
+      </div>
     </div>
 
     <div class="jumbotron" id= "skills">
       <div class="container">
-        <h2 class="text-center">Skills</h2>
+        <h2 data-aos="fade-down" data-aos-delay="200" class="text-center">Skills</h2>
         <div class="col-md-6 mx-auto d-block">
           <div class="card border-success mb-3" style="margin-bottom:10px;">
               <div class="card-body">
@@ -165,11 +168,11 @@
 
     <div class="jumbotron" id= "experience">
     <div class = "container">
-        <h2 class="text-center">Experience</h2>
+        <h2 data-aos="fade-down" data-aos-delay="200"class="text-center">Experience</h2>
         <ul class="timeline">
           <li>
             <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-            <div class="timeline-panel">
+            <div data-aos="fade-right" data-aos-delay="200"class="timeline-panel">
               <div class="timeline-heading">
                 <h4 class="timeline-title">Education</h4>
                 <p><small class="text-muted"><i class=""></i></small></p>
@@ -181,7 +184,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-badge warning"><i class=""></i></div>
-            <div class="timeline-panel">
+            <div data-aos="fade-left" data-aos-delay="200"class="timeline-panel">
               <div class="timeline-heading">
                 <h4 class="timeline-title">OTS</h4>
               </div>
@@ -192,8 +195,8 @@
             </div>
           </li>
           <li>
-            <div class="timeline-badge danger"><i class=""></i></div>
-            <div class="timeline-panel">
+            <div  class="timeline-badge danger"><i class=""></i></div>
+            <div data-aos="fade-right" data-aos-delay="200"class="timeline-panel">
               <div class="timeline-heading">
                 <h4 class="timeline-title">Cybersecurity Club</h4>
               </div>
@@ -203,8 +206,8 @@
             </div>
           </li>
           <li class="timeline-inverted">
-            <div class="timeline-badge success"><i class=""></i></div>
-            <div class="timeline-panel">
+            <div  class="timeline-badge success"><i class=""></i></div>
+            <div data-aos="fade-left" data-aos-delay="200" class="timeline-panel">
               <div class="timeline-heading">
                 <h4 class="timeline-title">Research</h4>
               </div>
@@ -219,40 +222,40 @@
   <div class="jumbotron" id= "projects">
 
     <div class="container">
-      <h2 class="text-center">Projects</h2>
+      <h2 data-aos="fade-down" data-aos-delay="200" class="text-center">Projects</h2>
       <br>
       <div class="row">
         <div class="col-md-6 text-center">
-          <h3 class="">HeRO: Help Resources Online</h3>
-          <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
-          <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          <h3 data-aos="zoom" data-aos-delay="200" class="">HeRO: Help Resources Online</h3>
+          <i data-aos="zoom" data-aos-delay="200" class="fa fa-laptop fa-5x" aria-hidden="true"></i>
+          <p data-aos="zoom" data-aos-delay="200" class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-md-6 text-center">
-          <h3 class="">Security Injections 3.0 @ Towson</h3>
-          <i class="fa fa-shield fa-5x" aria-hidden="true"></i>
-          <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          <h3 data-aos="zoom" data-aos-delay="200"class="">Security Injections 3.0 @ Towson</h3>
+          <i data-aos="zoom" data-aos-delay="200" class="fa fa-shield fa-5x" aria-hidden="true"></i>
+          <p data-aos="zoom" data-aos-delay="200"class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-md-6 text-center">
-          <h3 class="">WWYDH: What Would You Do Here?</h3>
-          <i class="fa fa-building-o fa-5x" aria-hidden="true"></i>
-          <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          <h3 data-aos="zoom" data-aos-delay="200"class="">WWYDH: What Would You Do Here?</h3>
+          <i data-aos="zoom" data-aos-delay="200" class="fa fa-building-o fa-5x" aria-hidden="true"></i>
+          <p data-aos="zoom" data-aos-delay="200" class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-md-6 text-center">
-          <h3 class="">Morning Briefing GUI</h3>
-          <i class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
-          <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          <h3 data-aos="zoom" data-aos-delay="200"class="">Morning Briefing GUI</h3>
+          <i data-aos="zoom" data-aos-delay="200" class="fa fa-sun-o fa-5x" aria-hidden="true"></i>
+          <p data-aos="zoom" data-aos-delay="200"class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -274,9 +277,11 @@
         </p>
       </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
 
 </body>
 </html>
