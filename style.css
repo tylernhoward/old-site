@@ -89,11 +89,11 @@ body {
 }
 .banner-content {
 		color: #fff;
-    position: absolute;
-    padding: 20% 0 5% 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
+    position:relative;
+    display:inline-block;
+    top:50%;
+    transform:translateY(-50%);
+}
 }
 #about {
 	background-color: white;

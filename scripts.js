@@ -1,5 +1,15 @@
 $(document).ready(function() {
   AOS.init();
+  if ($(window).width() < 768) {
+    $(".fixed-top").addClass("bg-dark");
+  }
+  if ($(window).width() < 400) {
+    $("#banner").css("background", "none");
+    $("#resume").css("background", "none");
+    $("#banner").css("background-color", "lightblue");
+    $("#resume").css("background-color", "lightblue");
+  }
+
   $('.navbar-brand').click(function(){
       $('html,body').animate({ scrollTop: 0 }, 1000);
       return false;
@@ -18,12 +28,17 @@ $(document).ready(function() {
   $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
             $(".fixed-top").addClass("bg-dark");
-            // $(".navbar").addClass("navbar-shadow");
         } else {
-
-            $(".fixed-top").removeClass("bg-dark");
-            // $(".navbar").removeClass("navbar-shadow");
+            if ($(window).width() >= 768) {
+              $(".fixed-top").removeClass("bg-dark");
+            }
         }
     });
+    $(window).on('resize', function() {
+      if ($(window).width() < 768) {
+        $(".fixed-top").addClass("bg-dark");
+      }
+    });
+
 
 });
