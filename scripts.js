@@ -2,8 +2,13 @@ $(document).ready(function() {
   AOS.init();
   if ($(window).width() < 768) {
     $(".fixed-top").addClass("bg-dark");
+
   }
   if ($(window).width() < 400) {
+    $("#banner").css("width", "auto");
+    $("#banner").css("height", "750px");
+    $("#banner .overlay").css("width", "auto");
+    $("#banner .overlay").css("height", "750px");
     $("#banner").css("background", "none");
     $("#resume").css("background", "none");
     $("#banner").css("background-color", "lightblue");
