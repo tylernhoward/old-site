@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Tyler Howard</title>
@@ -10,247 +11,258 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-106217334-1', 'auto');
-  ga('send', 'pageview');
-</script>
+    ga('create', 'UA-106217334-1', 'auto');
+    ga('send', 'pageview');
+    file: ///home/tyler/Documents/tylernhoward.github.io/index.html
+  </script>
   <script src="https://use.fontawesome.com/66943e0bb8.js"></script>
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Tyler Howard</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">Tyler Howard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSite">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:tylernhoward@gmail.com">Contact</a>
-            <!--<a class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</a>-->
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSite">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:tylernhoward@gmail.com">Contact</a>
+          <!--<a class="nav-link" data-toggle="modal" data-target="#contactModal">Contact</a>-->
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h4 class="modal-title" id="contactModalLabel">Contact</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		      </div>
-		      <div class="modal-body">
-						<h5>Use the form below to contact me for any reason</h5>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon">Name</span>
-							<input ng-model="feedback.name" required type="text" class="form-control">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon">Email</span>
-							<input ng-model="feedback.email" required type="email" class="form-control">
-						</div>
-						<div id = "feedbackText">
-							<br>
-							<span>Message:</span>
-							<textarea class = "form-control" rows = "5" style="resize:vertical;"></textarea>
-							<br>
-						</div>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-		        <button type="button" class="btn btn-primary">Send</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
-<div id="banner">
-      <div class="overlay">
-      <div class = "col-sm-12 text-center banner-content">
-        <h1 data-aos="zoom" data-aos-delay="400">TYLER HOWARD</h1>
-        <br>
-        <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600" >Software Engineering and Design</p>
-        <br>
-        <br>
-        <a data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000" class ="nav-link fa fa-angle-down fa-3x" href="#about"></a>
-      </div>
-  </div>
-</div>
-
-    <div class="jumbotron" id="about">
-      <div class="container">
-        <h1 data-aos="fade-down" class="text-center">Hi, I'm Tyler!</h1>
-        <br>
-        <img data-aos="zoom" class= "col-md-3 mx-auto d-block" src="content/photo.png">
-        <br>
-        <h2 data-aos="zoom" class="text-center">About Me</h2>
-        <br>
-        <p data-aos="zoom" class="col-md-8 mx-auto d-block text-center">
-           I am an aspiring professional in the field of Software Engineering, currently pursuing a Bachelor's degree in
-           Computer Science at Towson University.
-           I look forward to being faced with complex problems and strive to seek creative, elegant solutions.</p>
-        <br>
-        <div data-aos="zoom" id="terminal">
-          <div class="col-md-6 mx-auto d-block" id="termWindow">
-            <div class="row">
-              <div class="termCircles" style="background-color:tomato;"></div>
-              <div class="termCircles" style="background-color:gold;"></div>
-              <div class="termCircles" style="background-color:limegreen;"></div>
-            </div>
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="contactModalLabel">Contact</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <h5>Use the form below to contact me for any reason</h5>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon">Name</span>
+            <input ng-model="feedback.name" required type="text" class="form-control">
           </div>
-          <div class="col-md-6 mx-auto d-block" id="interestTerm">
-            <p>tyler.interests = {</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> raspberry_pi</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> console_emulation</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> web_frameworks</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> camping/hiking</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> film_photography</p>
-            <p>};</p>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon">Email</span>
+            <input ng-model="feedback.email" required type="email" class="form-control">
           </div>
+          <div id="feedbackText">
+            <br>
+            <span>Message:</span>
+            <textarea class="form-control" rows="5" style="resize:vertical;"></textarea>
+            <br>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Send</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="jumbotron" id= "skills">
-      <div class="container">
-        <h2 data-aos="fade-down" class="text-center">Skills</h2>
+  <div id="banner">
+    <div class="overlay">
+      <div class="col-sm-12 text-center banner-content">
+        <h1 data-aos="zoom" data-aos-delay="400">TYLER HOWARD</h1>
+        <br>
+        <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">Software Engineering and Design</p>
         <br>
         <br>
-        <div class="row" id="skilled">
-          <div data-aos="zoom" data-aos-delay="200" class="col-lg-5">
-            <br><h4>Experienced</h4><br>
+        <a data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000" class="nav-link fa fa-angle-down fa-3x" href="#about"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron" id="about">
+    <div class="container">
+      <h1 data-aos="fade-down" class="text-center">Hi, I'm Tyler!</h1>
+      <br>
+      <img data-aos="zoom" class="col-md-3 mx-auto d-block" src="content/photo.png">
+      <br>
+      <h2 data-aos="zoom" class="text-center">About Me</h2>
+      <br>
+      <p data-aos="zoom" class="col-md-8 mx-auto d-block text-center">
+        I am an aspiring professional in the field of Software Engineering, currently pursuing a Bachelor's degree in Computer Science at Towson University. I look forward to being faced with complex problems and strive to seek creative, elegant solutions.</p>
+      <br>
+      <div data-aos="zoom" id="terminal">
+        <div class="col-md-6 mx-auto d-block" id="termWindow">
+          <div class="row">
+            <div class="termCircles" style="background-color:tomato;"></div>
+            <div class="termCircles" style="background-color:gold;"></div>
+            <div class="termCircles" style="background-color:limegreen;"></div>
           </div>
-          <div data-aos="fade-left" data-aos-delay="300" class="card border-success mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">Java</p>
-              </div>
+        </div>
+        <div class="col-md-6 mx-auto d-block" id="interestTerm">
+          <p>tyler.interests = {</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> raspberry_pi</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> console_emulation</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> web_frameworks</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> camping/hiking</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=> film_photography</p>
+          <p>};</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron" id="skills">
+    <div class="container">
+      <h2 data-aos="fade-down" class="text-center">Skills</h2>
+      <br>
+      <br>
+      <div class="row" id="skilled">
+        <div data-aos="zoom" data-aos-delay="200" class="col-lg-5">
+          <br>
+          <h4>Experienced</h4><br>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="300" class="card border-success mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">Java</p>
           </div>
-          <div data-aos="fade-left" data-aos-delay="400" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">JavaScript</p>
-              </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="400" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">JavaScript</p>
           </div>
-          <div  data-aos="fade-left" data-aos-delay="500"class="card border-primary mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">Angular</p>
-              </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="500" class="card border-primary mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">Angular</p>
           </div>
-          <div  data-aos="fade-left" data-aos-delay="600" class="card border-danger mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">HTML5</p>
-              </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="600" class="card border-danger mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">HTML5</p>
           </div>
-          <div  data-aos="fade-left" data-aos-delay="700" class="card border-info mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">CSS3</p>
-              </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="700" class="card border-info mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">CSS3</p>
           </div>
-          <!--<div class="embed-responsive" style="padding-bottom:135%;">
+        </div>
+        <!--<div class="embed-responsive" style="padding-bottom:135%;">
               <object data="content/resume.pdf" type="application/pdf" width="100%" height="100%"></object>
           </div>-->
 
-        </div>
-        <div class="row" id="intermediate">
-          <div data-aos="zoom" data-aos-delay="200" class="col-lg-5">
-            <br><h4>Intermediate</h4><br>
-          </div>
-
-          <div data-aos="fade-left" data-aos-delay="300" class="card border-success mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">Python</p>
-              </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="400" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">C++</p>
-              </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="500" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">MySQL</p>
-              </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="600" class="card border-primary mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">PHP</p>
-              </div>
-          </div>
+      </div>
+      <div class="row" id="intermediate">
+        <div data-aos="zoom" data-aos-delay="200" class="col-lg-5">
+          <br>
+          <h4>Intermediate</h4><br>
         </div>
 
-        <div class="row" id="beginner">
-          <div data-aos="zoom" data-aos-delay="200" class="col-lg-5">
-            <br><h4>Beginner</h4><br>
+        <div data-aos="fade-left" data-aos-delay="300" class="card border-info mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">Python</p>
           </div>
-          <div data-aos="fade-left" data-aos-delay="300" class="card border-success mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">Scala</p>
-              </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="400" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">ASP.NET</p>
-              </div>
-          </div>
-          <div  data-aos="fade-left" data-aos-delay="500"class="card border-primary mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">Ionic</p>
-              </div>
-          </div>
-          <div data-aos="fade-left" data-aos-delay="600" class="card border-danger mb-3" style="margin-right:10px; margin-bottom:10px;">
-              <div class="card-body">
-                <p class="card-text">Swift</p>
-              </div>
-          </div>
-
         </div>
-        <br>
-        <hr>
-
-        <div id="knowledge">
-          <div data-aos="zoom" data-aos-delay="200" class="">
-            <br><h4>Knowledge</h4><br>
+        <div data-aos="fade-left" data-aos-delay="400" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">C++</p>
           </div>
-          <div class="row">
+        </div>
+        <div data-aos="fade-left" data-aos-delay="500" class="card border-success mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">MySQL</p>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="600" class="card border-danger mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">PHP</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="beginner">
+        <div data-aos="zoom" data-aos-delay="200" class="col-lg-5">
+          <br>
+          <h4>Beginner</h4><br>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="300" class="card border-primary mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">Scala</p>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="400" class="card border-danger mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">ASP.NET</p>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="500" class="card border-warning mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">Ionic</p>
+          </div>
+        </div>
+        <div data-aos="fade-left" data-aos-delay="600" class="card border-info mb-3" style="margin-right:10px; margin-bottom:10px;">
+          <div class="card-body">
+            <p class="card-text">Swift</p>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <hr>
+
+      <div id="knowledge">
+        <div data-aos="zoom" data-aos-delay="200" class="">
+          <br>
+          <h4>Knowledge</h4><br>
+        </div>
+        <div class="row">
           <div data-aos="zoom" data-aos-delay="200" class="mx-auto col-md-5 card border-success mb-3" style="margin:10px;">
-              <div class="card-body">
-                <p class="card-text">Windows and Linux based Operating Systems</p>
-              </div>
+            <div class="card-body">
+              <p class="card-text">Windows and Linux based Operating Systems</p>
+            </div>
           </div>
           <div data-aos="zoom" data-aos-delay="300" class="mx-auto col-md-5 card border-warning mb-3" style="margin:10px;">
-              <div class="card-body">
-                <p class="card-text">Object Oriented Design and Analysis</p>
-              </div>
+            <div class="card-body">
+              <p class="card-text">Object Oriented Design and Analysis</p>
+            </div>
           </div>
         </div>
         <div class="row">
           <div data-aos="zoom" data-aos-delay="400" class="mx-auto col-md-5 card border-primary mb-3" style="margin:10px;">
-              <div class="card-body">
-                <p class="card-text">Agile Development Process</p>
-              </div>
+            <div class="card-body">
+              <p class="card-text">Agile Development Process</p>
+            </div>
           </div>
           <div data-aos="zoom" data-aos-delay="500" class="mx-auto col-md-5 card border-danger mb-3" style="margin:10px;">
-              <div class="card-body">
-                <p class="card-text">Version Control with Git</p>
-              </div>
+            <div class="card-body">
+              <p class="card-text">Version Control with Git</p>
+            </div>
           </div>
         </div>
       </div>
@@ -258,136 +270,129 @@
   </div>
 
 
-    <div class="jumbotron" id= "experience">
-    <div class = "container">
-        <h2 data-aos="fade-down" class="text-center">Experience</h2>
-        <br>
-        <br>
-        <ul class="timeline">
-          <li>
-            <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-            <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Towson University</h4>
-                <p><small class="text-muted"><i class=""></i>Fisher College of Science and Mathematics</small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Pursuing a Bachelor of Science in Computer Science with a concentration on Software Engineering
-                  and a minor in Mathematics. Graduating in May 2018.</p>
-              </div>
+  <div class="jumbotron" id="experience">
+    <div class="container">
+      <h2 data-aos="fade-down" class="text-center">Experience</h2>
+      <br>
+      <br>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="fa fa-institution"></i></div>
+          <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Towson University</h4>
+              <p><small class="text-muted">Fisher College of Science and Mathematics</small></p>
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-badge warning"><i class=""></i></div>
-            <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Field Support Technician</h4>
-                <p><small class="text-muted"><i class=""></i>Office of Technology Services, Towson University</small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Worked in IT department of Towson University supporting faculty and staff with technology related issues.</p>
-                  <p>Aided in campus wide program to refurbish, update, and redistribute older computers with new hardware
-                  including 8GB of RAM and new SSDs.</p>
-              </div>
+            <div class="timeline-body">
+              <p>Pursuing a Bachelor of Science in Computer Science with a concentration on Software Engineering and a minor in Mathematics. Graduating in May 2018.</p>
             </div>
-          </li>
-          <li>
-            <div  class="timeline-badge danger"><i class=""></i></div>
-            <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Software Engineering Club</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Member of official university club based on skill development through independent project work and participation
-                  in local hackathons.</p>
-              </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="fa fa-wrench"></i></div>
+          <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Field Support Technician</h4>
+              <p><small class="text-muted">Office of Technology Services, Towson University</small></p>
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div  class="timeline-badge success"><i class=""></i></div>
-            <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Research Assistant and Lead Developer</h4>
-                <p><small class="text-muted"><i class=""></i>Department of Computer Science, Towson University</small></p>
-              </div>
-              <div class="timeline-body">
-                <p>
-                Lead developer responsible for maintaining the program's website and a repository of online teaching modules and hosted at Security Injections @Towson.
-                Helped manage and distribute tasks to members of a small development team.</p>
-                <p> Conducted research in order to design
-                and implement a Cybersecurity curriculum management platform for NSF funded project using new web technologies and
-                the MEAN stack.</p>
-              </div>
+            <div class="timeline-body">
+              <p>Worked in IT department of Towson University supporting faculty and staff with technology related issues.</p>
+              <p>Aided in campus wide program to refurbish, update, and redistribute older computers with new hardware including 8GB of RAM and new SSDs.</p>
             </div>
-          </li>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger"><i class="fa fa-keyboard-o"></i></div>
+          <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Software Engineering Club</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Member of official university club based on skill development through independent project work and participation in local hackathons.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge success"><i class="fa fa-sitemap"></i></div>
+          <div data-aos="fade" data-aos-delay="100" class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Research Assistant and Lead Developer</h4>
+              <p><small class="text-muted"></i>Department of Computer Science, Towson University</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Lead developer responsible for maintaining the program's website and a repository of online teaching modules and hosted at Security Injections @Towson. Helped manage and distribute tasks to members of a small development team.</p>
+              <p> Conducted research in order to design and implement a Cybersecurity curriculum management platform for NSF funded project using new web technologies and the MEAN stack.</p>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
 
   <div id="resume">
     <div class="overlay">
-    <div class="container">
-      <div class="col-md-12 text-center">
-        <h4>My Resume</h4>
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <h4>My Resume</h4>
           <br>
-        <a class="resume-btn col-md-4 mx-auto " href="content/Tyler_Howard_Resume.pdf" target="_blank">Grab A Copy</a>
-    </div>
+          <a class="resume-btn col-md-4 mx-auto " href="content/Tyler_Howard_Resume.pdf" target="_blank">Grab A Copy</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-  <div class="jumbotron" id= "projects">
+  <div class="jumbotron" id="projects">
 
     <div class="container-fluid">
       <h2 data-aos="fade-down" class="text-center">Projects</h2>
       <br>
       <br>
-      <div class ="row h-100 justify-content-center align-items-center">
-        <div class = "col-md-4">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-md-4">
           <div data-aos="flip-left" class="card card-01">
             <img class="card-img-top" src="content/hero.jpg" alt="Card image cap">
             <div class="card-body">
               <span class="badge-box"><i class="fa fa-laptop"></i></span>
               <h4 class="card-title">HeRO: Help Resources Online</h4>
-              <p class="card-text">Worked in a small team through the Office and Technology Services at Towson University to
-                create and deploy a desktop application written in Visual Basic.</p><p>The application is a run-on-startup tool that
-                 provides help resources, videos, and relevant campus alerts to instructor workstations throughout multiple campuses
-                  of Towson University. To ensure reliability across different machines, the tool relies only on access to the web
-                  and a shared drive.</p>
+              <p class="card-text">Worked in a small team through the Office and Technology Services at Towson University to create and deploy a desktop application written in Visual Basic.</p>
+              <p>The application is a run-on-startup tool that provides help resources, videos, and relevant campus alerts to instructor workstations throughout multiple campuses of Towson University. To ensure reliability across different machines, the
+                tool relies only on access to the web and a shared drive.</p>
             </div>
           </div>
         </div>
-        <div class = "col-md-4">
+        <div class="col-md-4">
           <div data-aos="flip-left" class="card card-03">
             <img class="card-img-top" src="content/wwydh.jpg" alt="Card image cap">
             <div class="card-body">
               <span class="badge-box"><i class="fa fa-building"></i></span>
               <h4 class="card-title">WWYDH: What Would You Do Here?</h4>
-              <p class="card-text">Semester project that involved continuing development on a web application for a nonprofit
-                client. This application aimed to encourage community involvement in Baltimore City, MD by making use of vacant
-                lots for user-suggested projects and events.</p><p>This project manifested as a PHP based website that relied on a mySQL database
-                and several APIs. Used the Agile development process to gather the client's requirements and input throughout the semester.</p>
+              <p class="card-text">Semester project that involved continuing development on a web application for a nonprofit client. This application aimed to encourage community involvement in Baltimore City, MD by making use of vacant lots for user-suggested projects and
+                events.</p>
+              <p>This project manifested as a PHP based website that relied on a mySQL database and several APIs. Used the Agile development process to gather the client's requirements and input throughout the semester.</p>
               <a href="http://wwydh-2017.herokuapp.com" style="margin-right:10px;" class="btn btn-primary">Explore</a><a href="https://github.com/tylernhoward/wwydh" class="btn btn-success">GitHub</a>
             </div>
           </div>
         </div>
-        <div class = "col-md-4">
+        <div class="col-md-4">
           <div data-aos="flip-left" class="card card-02">
             <img class="card-img-top" src="content/threeo.jpg" alt="Card image cap">
             <div class="card-body">
               <span class="badge-box"><i class="fa fa-shield"></i></span>
               <h4 class="card-title">Security Injections 3.0 @ Towson</h4>
-              <p class="card-text">Worked for the Computer and Information Sciences department in a small team as a lead developer
-                responsible for developing a web application used as a instructional tool for introductory Computer Science students
-                and other cyber-related majors.</p><p> The current iteration is a single-page web application that makes use of the Angular JavaScript
-               framework and template-based storage in order to dynamically generate instructional content from JSON. This application is a critical
-               component of an NSF funded curriculum management platform utilizing the MEAN stack and semantic searching.</p>
+              <p class="card-text">Worked for the Computer and Information Sciences department in a small team as a lead developer responsible for developing a web application used as a instructional tool for introductory Computer Science students and other cyber-related
+                majors.</p>
+              <p> The current iteration is a single-page web application that makes use of the Angular JavaScript framework and template-based storage in order to dynamically generate instructional content from JSON. This application is a critical component
+                of an NSF funded curriculum management platform utilizing the MEAN stack and semantic searching.</p>
               <a href="http://cis1.towson.edu/~cyber4all/modules/nanomodules/Integer_Error-CS0_C++_Demo.html" class="btn btn-primary">Explore</a>
             </div>
           </div>
         </div>
       </div>
-      <p data-aos="fade-up" data-aos-delay="500"class="text-center">More coming soon..</p>
+      <p data-aos="fade-up" data-aos-delay="500" class="text-center">More coming soon..<br>
+        <span><i class ="fa fa-hourglass-start"></i><span>
+      </p>
+
     </div>
   </div>
 
