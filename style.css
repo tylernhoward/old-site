@@ -10,6 +10,43 @@ body {
 .jumbotron {
     margin-bottom: 0px;
 }
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: rgb(12, 180, 218);
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #000000;
+}
+/*
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color:rgb(12, 180, 218);
+}*/
+
+.navbar .navbar-link:hover {
+    color: rgb(12, 180, 218);
+}
+.navBtn {
+    color: white;
+    text-decoration: none;
+}
+
+.navBtn:hover {
+    color: rgb(12, 180, 218);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkBtn{
+    color:#262626;
+    text-decoration: none;
+}
+.linkBtn:hover {
+    color:rgb(12, 180, 218);
+    text-decoration: none;
+    cursor: pointer;
+}
 
 #banner .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);

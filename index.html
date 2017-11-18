@@ -5,7 +5,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106217334-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-106217334-1');
   </script>
@@ -50,7 +53,7 @@
       </ul>
     </div>
   </nav>
-
+  <!--
   <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -85,7 +88,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div id="banner">
     <div class="overlay">
@@ -95,7 +98,7 @@
         <p data-aos="fade-up" data-aos-easing="ease" data-aos-delay="600">Software Engineering and Design</p>
         <br>
         <br>
-        <a data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000" class="nav-link fa fa-angle-down fa-3x" href="#about"></a>
+        <a data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1000" class="navBtn nav-link fa fa-angle-down fa-3x" href="#about"></a>
       </div>
     </div>
   </div>
@@ -106,7 +109,13 @@
       <br>
       <img data-aos="zoom" class="col-md-3 mx-auto d-block" src="content/photo.png">
       <br>
+
       <h2 data-aos="zoom" class="text-center">About Me</h2>
+      <div class="text-center">
+        <a href="https://www.linkedin.com/in/tyler-howard-b874b8118/" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-linkedin fa-2x"></a>
+        <a href="https://github.com/tylernhoward" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-github fa-2x"></a>
+        <a href="https://flickr.com/photos/faintcolors" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-flickr fa-2x"></a>
+      </div>
       <br>
       <p data-aos="zoom" class="col-md-8 mx-auto d-block text-center">
         I am an aspiring professional in the field of Software Engineering, currently pursuing a Bachelor's degree in Computer Science
@@ -130,6 +139,7 @@
           <p>};</p>
         </div>
       </div>
+
     </div>
   </div>
 
@@ -418,7 +428,8 @@
               <p> The current iteration is a single-page web application that makes use of the Angular JavaScript framework and
                 template-based storage in order to dynamically generate instructional content from JSON. This application
                 is a critical component of an NSF funded curriculum management platform utilizing the MEAN stack and semantic
-                searching.</p>
+                searching.
+              </p>
               <a href="http://cis1.towson.edu/~cyber4all/modules/nanomodules/Integer_Error-CS0_C++_Demo.html" class="btn btn-primary">Explore</a>
             </div>
           </div>
@@ -459,10 +470,11 @@
     <p class="text-center">
       &copy; Updated 2017
       </br>
-      <a href="https://www.linkedin.com/in/tyler-howard-b874b8118/" role="button" class="btn navbar-btn social-icon btn-link fa fa-linkedin fa-2x"></a>
-      <a href="https://github.com/tylernhoward" role="button" class="btn navbar-btn social-icon btn-link fa fa-github fa-2x"></a>
-      <a href="https://flickr.com/photos/faintcolors" role="button" class="btn navbar-btn social-icon btn-link fa fa-flickr fa-2x"></a>
-      <a href="mailto:tylernhoward@gmail.com" role="button" class="btn navbar-btn social-icon btn-link fa fa-envelope" style="font-size: 24px;"></a>
+      <a href="https://www.linkedin.com/in/tyler-howard-b874b8118/" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-linkedin fa-2x"></a>
+      <a href="https://github.com/tylernhoward" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-github fa-2x"></a>
+      <a href="https://flickr.com/photos/faintcolors" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-flickr fa-2x"></a>
+      <a href="mailto:tylernhoward@gmail.com" role="button" class="linkBtn btn navbar-btn social-icon btn-link fa fa-envelope"
+        style="font-size: 24px;"></a>
     </p>
   </footer>
 
