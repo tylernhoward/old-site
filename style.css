@@ -128,6 +128,55 @@ body {
     font-weight: 300;
     letter-spacing: 5px;
 }
+#banner h1 span {
+    transition: all 0.2s ease;
+}
+
+#banner .tf:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .yf:hover{
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .lf:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .ef:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .rf:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .hl:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .ol:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .wl:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .al:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .rl:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+#banner .dl:hover {
+    font-weight: 300;
+    color: rgb(12, 180, 218);
+}
+
 
 .banner-content {
     color: #fff;
