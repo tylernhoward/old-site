@@ -113,7 +113,7 @@ body {
 }
 
 #banner {
-    background: url(content/mountainbg.jpg);
+    background: url(content/tunnelbg.jpg);
     background-size: cover;
     background-position: bottom center;
     background-attachment: fixed;
@@ -127,6 +127,10 @@ body {
 #banner h1 {
     font-weight: 300;
     letter-spacing: 5px;
+}
+#banner p {
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 #banner h1 span {
     transition: all 0.2s ease;
@@ -182,8 +186,8 @@ body {
     color: #fff;
     position: relative;
     display: inline-block;
-    top: 30%;
-    transform: translateY(-30%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
