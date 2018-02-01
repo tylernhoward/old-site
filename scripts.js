@@ -51,9 +51,9 @@ $(document).ready(function () {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 150,
+      "value": 200,
       "density": {
-        "enable": true,
+        "enable": false,
         "value_area": 800
       }
     },
@@ -75,7 +75,7 @@ particlesJS("particles-js", {
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 1.5,
+        "speed": 2.0,
         "opacity_min": 0.15,
         "sync": false
       }
@@ -103,8 +103,8 @@ particlesJS("particles-js", {
       "direction": "none",
       "random": true,
       "straight": false,
-      "out_mode": "out",
-      "bounce": false,
+      "out_mode": "bounce",
+      "bounce": true,
       "attract": {
         "enable": false,
         "rotateX": 600,

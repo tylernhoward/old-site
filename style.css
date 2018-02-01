@@ -23,6 +23,7 @@ body {
 }
 
 .jumbotron {
+    overflow: hidden;
     margin-bottom: 0px;
 }
 
