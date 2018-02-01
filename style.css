@@ -195,6 +195,9 @@ body {
 #about {
     background-color: white;
 }
+.profile{
+    max-width: 200px;
+}
 #skills {
     /*background-color: #343a40;*/
 
