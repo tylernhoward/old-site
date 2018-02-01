@@ -3,7 +3,7 @@
 $(document).ready(function () {
   AOS.init();
   if ($(window).width() < 768) {
-    $(".fixed-top").css("bg-custom");
+    $(".fixed-top").addClass("bg-custom");
 
   }
   if ($(window).width() < 400) {
@@ -51,7 +51,7 @@ $(document).ready(function () {
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 200,
+      "value": 150,
       "density": {
         "enable": false,
         "value_area": 800
