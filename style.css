@@ -1,6 +1,7 @@
 html {
     position: relative;
     min-height: 100%;
+    max-width:100%;
 }
 
 body {
@@ -186,8 +187,8 @@ body {
     color: #fff;
     position: relative;
     display: inline-block;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35;
+    transform: translateY(-35%);
 }
 
 #about {
