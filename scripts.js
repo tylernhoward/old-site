@@ -6,7 +6,7 @@ $(document).ready(function () {
     $(".fixed-top").addClass("bg-custom");
 
   }
-  if ($(window).width() < 400) {
+  if ($(window).width() < 500) {
     $(".navbar").remove();
     $("#banner").css("width", "auto");
     $("#banner").css("height", "750px");
