@@ -6,6 +6,7 @@ html {
 
 body {
     background-color: white;
+    position: relative;
 }
 #particles-js {
     position: absolute;
@@ -187,7 +188,7 @@ body {
     color: #fff;
     position: relative;
     display: inline-block;
-    top: 35;
+    top: 35%;
     transform: translateY(-35%);
 }
 
