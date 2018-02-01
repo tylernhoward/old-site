@@ -7,6 +7,7 @@ $(document).ready(function () {
 
   }
   if ($(window).width() < 400) {
+    $(".navbar").remove();
     $("#banner").css("width", "auto");
     $("#banner").css("height", "750px");
     $("#banner .overlay").css("width", "auto");
